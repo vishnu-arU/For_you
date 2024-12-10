@@ -1,7 +1,7 @@
 document.querySelector(".btn").addEventListener("click", change);
 function change() {
-  var audio = new Audio("./audio/song.mp3");
-  audio.play();
+  // var audio = new Audio("./audio/song.mp3");
+  // audio.play();
 
   var video = document.createElement("video");
   video.src = "./video/video.mp4";
