@@ -9,7 +9,7 @@ function change() {
   video.style.width = "50%";
   document.body.appendChild(video);
   video.play();
-    alert("Miss you baby 😘");
+    // alert("Miss you baby 😘");
 
   video.addEventListener("ended", function () {
     alert("Miss you baby 😘"); 
